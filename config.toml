@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = ""
 title = "Lượng thứ"
 theme = "etch"
 languageCode = "vn-VN"
