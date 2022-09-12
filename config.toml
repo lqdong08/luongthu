@@ -2,7 +2,7 @@ baseURL = ""
 title = "Lượng thứ"
 theme = "etch"
 languageCode = "vn-VN"
-enableInlineShortcodes = true
+enableInlineShortcodes = false
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
