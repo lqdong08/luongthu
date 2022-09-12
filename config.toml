@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "luongthu.netlify.app"
 title = "Lượng thứ"
 theme = "etch"
 languageCode = "vn-VN"
