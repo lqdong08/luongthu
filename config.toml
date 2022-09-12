@@ -1,0 +1,38 @@
+baseURL = "https://example.com"
+title = "Lượng thứ"
+theme = "etch"
+languageCode = "vn-VN"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  description = "Trang web kể về câu chuyện khoa học, phi sư phạm và phi quản lý."
+  copyright = "Copyright © 2022 Lê Quang Đông"
+  dark = "auto"
+  highlight = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "bài viết"
+    title = "bài viết"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "về trang"
+    title = "về trang"
+    url = "/about/"
+    weight = 20
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allow HTML in Markdown
+  unsafe = true
+
+  [markup.tableOfContents]
+    ordered = true
